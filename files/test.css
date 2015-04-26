@@ -1,0 +1,1908 @@
+/*
+To replace backgrounds, replace the jpg in the folder, not in this css file.
+
+To do's:
+- create mobile version of bg's so it loads faster
+- create iphone 320 width backgrounds so it loads faster
+
+*/
+
+
+* {
+	padding:0;
+	margin:0;
+}
+
+html, body, table, th, tr, td, p, img, 
+hr, ul, li, h1, h2, h3, h4, h5, h6, div, form, 
+fieldset, textarea, section, span {
+	padding: 0; 
+	margin: 0; 
+	border: none;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;	
+}
+
+body {
+	background: #232323;
+	font-family: 'avenir_nextregular', Arial, sans-serif;
+	text-align: left;
+	padding : 0;
+	font-size: 1em;
+	letter-spacing: 0;
+	line-height: 1.5625em;
+	color: #fff;
+	font-weight: normal;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+/*******************************
+*********** Etcetera ***********
+*******************************/
+
+
+a {
+	color: #333333;
+	font-family: 'avenir_nextregular', Arial, sans-serif;
+	font-weight: normal;
+	text-decoration: none;  
+	-webkit-transition: color .3s linear;  
+	-moz-transition: color .3s linear;  
+	-o-transition: color .3s linear;  
+	-ms-transition: color .3s linear;  
+	transition: color .3s linear; 
+	
+}
+
+a:hover {
+	color: #999999;
+}
+
+.clear {
+	clear: both;
+}
+
+.left {
+	width: 50%;
+	float: left
+}
+
+.right {
+	width: 50%;
+	float: right;
+}
+
+h2 {
+	font-family: 'Arvo', serif;
+	font-weight: 700;
+	letter-spacing: 0px;
+	font-size: 1em;
+	margin-bottom: 1em;
+	font-weight: bold;
+	color: #82827B;
+	top: -12px;
+}
+
+h1 {
+	font-size: 30px;
+	font-family: 'avenir_nextregular', Arial, sans-serif;
+	color: #fff;
+	margin-top: 2em;
+	line-height: 1.25em;
+}
+
+@media all and (max-width: 400px) {
+	h2 {
+		font-size: 12px;
+	}
+}
+
+strong {
+	font-family: 'avenir_nextdemi_bold';
+}
+
+
+/*******************************
+*********** Section ************
+*******************************/
+
+.section {
+	min-width: 100%;
+	overflow: hidden;
+	padding: 0; 
+	margin: 0; 
+	position: relative;
+}
+
+.content {
+	width: 960px;
+	margin: 0px auto;
+	max-width: 1400px;
+}
+
+@media all and (min-width: 1600px) {
+	.content {
+		width: 1200px;
+	}
+}
+
+@media all and (max-width: 990px) {
+	.content {
+		width: 94%;
+	}
+}
+
+@media all and (max-width: 600px) {
+	.content {
+		width: 85%;
+	}
+}
+
+
+/*******************************
+************** Top *************
+*******************************/
+
+.logo {
+	float: left;
+	width: 40%
+}
+
+.logo img {
+	width: 191px;
+	height: 63px;
+	margin-top: 2px;
+}
+
+.logo img.logo-mobile {
+	display: none;
+}
+
+.navigation {
+	float: right;
+	width: 60%;
+	text-align: right;
+	margin-top: 0.75em;
+}
+
+.navigation ul, .navigation ul li {
+	list-style-type: none;
+	display: inline;
+}
+
+.navigation a{
+	font-family: 'avenir_nextregular', Arial, sans-serif;
+	color: #fff;
+	display: inline-block;
+	font-size: 11px;
+	text-transform: uppercase;
+	padding: 0.5em 1.75em;
+	letter-spacing: 2px
+}
+
+
+.navigation a:hover {
+	color: #313131;
+	font-family: 'avenir_nextregular', Arial, sans-serif;
+}
+
+.navigation a.about {
+	padding-right: 2.75em;
+}
+
+.navigation a.download {
+	background: transparent; 
+}
+
+.navigation a.contactlink, a.contactlink-mobile  {
+	padding: 0.125em 1.75em;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: rgba(255,255,255,0.25) 2px solid;
+}
+
+a.contactlink-mobile  {
+	display: none;
+	font-family: 'avenir_nextregular';
+	color: #fff;
+	font-weight: bold;
+	font-size: 12px;
+	text-transform: uppercase;
+	padding: 0.25em 1.75em;
+	letter-spacing: 1px;
+	width: 80px;
+	margin: 2em auto;
+}
+
+.navigation a.contactlink:hover, a.contactlink1:hover {
+	background: rgba(255,255,255,0.25);
+	color: #fff;
+	padding: 0.375em 1.75em;
+	border: rgba(255,255,255,0) 2px solid;
+}
+
+
+.top {
+	top: 0;
+	padding: 1.6875em 0;
+	background: url('background1.jpg') no-repeat fixed top; /*background photo*/
+	/*background: url('http://melewi.net/background1.jpg') no-repeat fixed top;*/
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	line-height: 2em;
+}
+
+.top .content {
+	z-index: 10000;
+}
+
+.top h1 {
+	font-size: 34px;
+	color: #fff;
+	line-height: 1.5em;
+	margin-bottom: 1.125em
+}
+
+.top .content2 {
+	width: 55%;
+	text-align: center;
+	margin: 141px auto 136px;
+}
+
+.top p {
+	margin-top: 0px;
+	font-size: 16px;
+	font-family: 'AvenirNextUltraLight', Arial, sans-serif;
+}
+
+.hidden {
+    display:none;
+}
+
+.top p.quotes {
+	display: none;
+}
+
+@media all and (min-width: 1600px) {
+	.top .content2 {
+		width: 70%;
+	}
+}
+
+@media all and (min-width: 1280px) {
+	.top {
+		-webkit-background-size: 100%;
+		-moz-background-size: 100%;
+		-o-background-size: 100%;
+		background-size: 100%;
+	}
+}
+
+
+@media all and (max-width: 1024px) {
+	.top {
+		padding: 1.6875em 0;
+		/*background: url(background1.jpg) no-repeat -200px 0;*/
+		background: url('background1.jpg') no-repeat 50% 100%;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+}
+
+@media all and (max-width: 990px) {
+	.top .content2 {
+		width: 85%;
+		margin: 160px auto
+	}
+}
+
+@media all and (max-width: 768px) {
+
+	.top {
+		background: #000 url('background1.jpg') no-repeat scroll right;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+}
+
+@media all and (max-width: 600px) {
+	.navigation,
+	.logo img.logo-web {
+		display: none;
+	}
+
+	.top h1 {
+		font-size: 1.75em
+	}
+
+	.logo {
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+
+	.logo img.logo-mobile {
+		display: inline-block;
+		width: 110px;
+		height: auto;
+	}
+
+	a.contactlink-mobile {
+		display: inline-block;
+	}
+
+
+	.top .content2 {
+		width: 100%;
+		margin: 80px auto 50px;
+	}
+
+	.top {
+		background: #000 url(background1.jpg) top;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+}
+
+@media all and (max-width: 520px) {
+	.top p {
+		font-size: 0.875em;
+	}
+}
+
+@media all and (max-width: 320px) {
+	.top {
+		/*background: #000 url(img/melewiheader-iphone.jpg) no-repeat scroll top;*/
+		background: #000 url(background1.jpg) no-repeat scroll top;
+		-webkit-background-size: 100%;
+		-moz-background-size: 100%;
+		-o-background-size: 100%;
+		background-size: 100%;
+	}
+}
+
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio: 1)  {
+	.top .content2 {
+		margin: 180px auto
+	}
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 736px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio: 1)  {
+	.top .content2 {
+		margin: 5em auto 6em;
+		width: 80%;
+	}
+
+	.top h1 {
+		font-size: 28px;
+	}
+}
+
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio: 1)  {
+	.top .content2 {
+		margin: 18em auto 20em;
+	}
+
+	.top {
+		position: relative;
+	}
+
+	.top p {
+		font-family: 'avenir_nextregular';
+	}
+}
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 736px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio: 1)  {
+	
+	.top .content2 {
+		margin: 2em auto;
+	}
+
+	.top p {
+		font-family: 'avenir_nextregular';
+	}
+}
+
+
+
+/*******************************
+*********** Clients ************
+*******************************/
+
+
+.trusted {
+	background: #232323;
+	padding: 2.5em 0 1.5em;
+	width: 100%;
+	text-align: left;
+}
+
+.trusted .content {
+	padding: 0;
+}
+
+.trusted img {
+	display: inline-block;
+}
+
+.trusted .left:nth-of-type(1) img {
+	width: 60px;
+	margin: 0;
+	height: 48px
+}
+
+.trusted .left:nth-of-type(2) img {
+	width: 97px;
+	margin: -0.375em 0 0 4em
+}
+
+.trusted .left:nth-of-type(3) img {
+	width: 117px;
+	margin-top: -0.6125em;
+}
+
+.trusted .left:nth-of-type(4) img {
+	width: 135px;
+	margin: 0em 1.75em 0 0
+}
+
+.trusted .left:nth-of-type(5) img {
+	width: 154px;
+}
+
+
+.trusted .left {
+	width: 25.3%;
+	text-align: center;
+}
+
+.trusted .left:first-of-type {
+	width: 7%;
+}
+
+.trusted .left:last-of-type {
+	width: 17%;
+	margin: 0;
+}
+
+
+@media all and (max-width: 1024px) {
+	.trusted {
+		display: none;
+	}
+}
+
+
+
+/*******************************
+********** What We Do **********
+*******************************/
+
+/* Appropriate for 960 - 1600px */
+.whatwedo {
+	background: #fff;
+	font-family: 'avenir_nextregular';
+	font-size: 1em;
+	padding: 3em 0;
+	color: #333;
+	line-height: 1.75em;
+}
+
+.whatwedo h1 {
+	font-size: 1.75em;
+	color: #333333;
+	line-height: 1.625em;
+	margin: 1em 0 1em;
+	text-align: left;
+}
+
+.whatwedo h2 {
+	color: #ccc;
+	margin: 0;
+	width: 100%;
+}
+
+.whatwedo p {
+	margin: 1.5em auto;
+}
+
+.whatwedo .left {
+	width: 45%;
+	float: left;
+	display: inline-block;
+	margin-right: 9%;
+}
+
+.whatwedo .right {
+	width: 45%;
+	float: none;
+	display: inline-block;
+	text-align: center;
+	position: relative;
+	top: -40px;
+	left: 3.5%;
+}
+
+.do {
+	width: 40%;
+	display: inline-block;
+	margin: 3% 3%;
+}
+
+.do img {
+	width: 95%;
+}
+
+.break {
+	display: block;
+}
+
+/* Dealing with large screens, beyond 1600px */
+@media screen and (min-width: 1600px) {
+	.do {
+		width: 29%;
+	}
+}
+
+/* Mobile is only displayed with pixel sizes below 960px */
+.whatwedo .mobilez {
+	display: none;
+}
+
+
+@media all and (max-width: 1024px){
+	.whatwedo .right {
+		top: 1em;
+		left: 0;
+	}
+}
+
+/* Dealing with mobile (below 960px) */
+
+/* 800 - 960px */
+@media screen and (max-width: 960px) {
+	/* We switch mobile and hide web, effect cascades down */
+	.whatwedo .mobilez {	
+		display: inline-block;
+		position: relative;
+		top: -30px;
+	}
+
+	.whatwedo .webz {
+		display: none;
+	}
+}
+
+/* 800 - 650px */
+@media screen and (max-width: 800px) {
+	.whatwedo .left {
+		margin-right: 0%;
+		width: 54%;
+	}
+
+	.whatwedo .right {
+		left: 3%;
+	}
+}
+
+/* below 600px - the logos shift down and stack up */
+@media screen and (max-width: 667px) {
+	.whatwedo .left {
+		width: 100%;
+	}
+
+	.whatwedo .mobilez {
+		width: 100%;
+		top: 0.5em;
+	}
+
+	.whatwedo .right {
+		left: 0%;
+	}
+}
+
+@media all and (max-width: 600px) {
+	.break {
+		display: inline;
+	}
+}
+
+@media all and (max-width: 520px) {
+	.whatwedo .left p {
+		font-size: 0.875em;
+	}
+}
+
+/*******************************
+******** Customers *************
+*******************************/
+.customers {
+	background: #f2f1ec;
+	font-family: 'avenir_nextregular';
+	font-size: 1em;
+	padding: 4.25em 0 0;
+	color: #333;
+	width: 100%;
+	line-height: 1.75em;
+	text-align: center;
+}
+
+.customers h2 {
+	color: #ccc;
+	width: 100%;
+	margin-top: 1em;
+}
+
+.customers h1 {
+	font-size: 1.8em;
+	color: #333;
+	line-height: 45px;
+	margin: 0em auto 1.25em;
+}
+
+.origin {
+	color: #999;
+	font-style: italic;
+	font-size: 1em;
+}
+
+.kind {
+	color: #333;
+	font-weight: bold;
+	font-size: 1.125em;
+}
+
+.product-info {
+	display: none;
+	width: 100%;
+	margin: 0 auto 2em;
+}
+
+@media all and (max-width: 768px) {
+	.customers h1 {
+		width: 80%
+	}
+}
+
+@media all and (max-width: 600px) {
+	.customers h1 {
+		width: 100%
+	}
+}
+
+/* FIRST ROW */
+/* First row of logos; each logo has an img, a logo and a product-info */
+.first-row {
+	overflow: hidden;
+	position: relative;
+	top: 0px;
+}
+
+img.bottom-product1 {
+	width: 100%;
+	position: relative;
+	top: -20px;
+	width: 100%
+}
+
+ img.bottom-product1:nth-of-type(2) {
+	top: -60px;
+}
+
+@media all and (max-width: 800px) {
+	.bottom-product1 {
+		display: none
+	}
+}
+
+/* MCDONALDS */
+#wrapper-mcd {
+	width: 18%;
+	display: inline-block;
+	height: 363px;
+	vertical-align: bottom;
+	margin-right: 6%;
+	overflow: hidden;
+}
+
+#mcd {
+	width: 100%;
+	vertical-align: top;
+}
+
+#mcd-phone {
+	width: 132px;
+}
+
+#mcd-logo{
+	/*background: url(img/product/mcdo-final.png) no-repeat;*/
+	background-size: 60px 100px;
+	-webkit-background-size: 60px 100px;
+	-moz-background-size: 60px 100px;
+	width: 60px;
+	height: 50px;
+	margin: 0 auto 1em;
+}
+
+/* Hovering to reveal the logo*/
+#mcd:hover #mcd-logo {
+	background-position: 0 -52px;
+	margin-bottom: 1.5em;
+}
+
+/* SAMSUNG */
+#wrapper-samsung {
+	width: 25%;
+	display: inline-block;
+	vertical-align: bottom;
+	height: 379px;
+	position: relative;
+	top: 8px;
+	overflow: hidden;
+}
+
+#samsung {
+	width: 100%;
+}
+
+#samsung-phone {
+	width: 211px;
+}
+
+#samsung-logo {
+	display: block;
+	/*background: url(img/product/samsung-final.png) no-repeat;*/
+	background-size: 122px 87px;
+	-webkit-background-size: 122px 87px;
+	-moz-background-size: 122px 87px;
+	width: 122px;
+	height: 43px;
+	margin: 0 auto 1em;
+}
+
+/* Hovering to reveal the logo */
+#samsung:hover #samsung-logo {
+	background-position: 0 -46px;
+	margin-bottom: 1.5em;
+}
+
+/* CITIBANK */
+#wrapper-citibank {
+	width: 50%;
+	display: inline-block;
+	vertical-align: bottom;
+	position: relative;
+	top: 20px;
+}
+
+#citibank {
+	width: 100%;
+}
+
+#citibank .product-info {
+	position: absolute;
+	top: 3em;
+	left: 3em;
+	text-align: left;
+}
+
+
+#citibank-logo {	
+	background-size: 112px 63px;
+	-webkit-background-size: 112px 63px;
+	-moz-background-size: 112px 63px;
+	height: 32px;
+	width: 112px;
+	display: inline-block;
+	position: absolute;
+	left: 3em;
+	top:0;
+}
+
+#citibank:hover #citibank-logo {
+	background-position: 0 -33px;
+}
+
+
+/* Citibank logo temp class */
+#citibank-temp {
+	width: 24%;
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	left: 50px;
+	top: 5px;
+}
+
+#citibank-laptop {
+	width: 75%;
+	margin-right:0;
+	margin-left: auto;
+	display: block;
+}
+
+/* Deals from 990px to 640px*/
+/* Readjusts individual width to suit screen width */
+@media all and (max-width: 990px) {
+	#wrapper-mcd {
+		width: 40%;
+		margin-right: 2%;
+		overflow: visible;
+	}
+
+	#wrapper-samsung {
+		width: 57%;
+		overflow: visible;
+	}
+
+	#wrapper-citibank {
+		width: 100%;
+		margin-top: 70px;
+	}
+
+	#citibank-temp {
+		width: 112px;
+		left: 60px;
+	}
+
+	#citibank-laptop {
+		width: 50%;
+		margin-right: 10em;
+	}
+
+	#citibank-logo, #citibank .product-info {
+		left: 7em;
+	}
+
+	.bottom-product1 {
+		top: -20px;
+	}
+
+	img.bottom-product1:nth-of-type(2) {
+		top: -40px;
+	}
+}
+
+@media all and (max-width: 767px) {
+	#citibank-logo {
+		position: relative;
+		left: 0;
+		margin: 0 auto 1.25em;
+	}
+
+	#citibank .product-info {
+		position: relative;
+		left: 0;
+		top: 0;
+		text-align: center;
+		margin: 0 auto 2em ;
+	}
+
+	#citibank-laptop {
+		margin: 1em auto;
+	}
+
+	#wrapper-citibank {
+		overflow: hidden;
+	}
+}
+
+/* Deals from 640 to 480px */
+@media all and (max-width: 640px) {
+	#citibank-laptop {
+		width: 280px;
+		overflow: hidden;
+	}
+
+	#citibank-temp {
+		left: 0px;
+	}
+}
+
+/* Deals with 480 and below */ 
+@media all and (max-width: 485px) {
+	#wrapper-mcd {
+		margin-top: 30px;
+		width: 100%;
+	}
+	
+	#wrapper-samsung {
+		margin-top: 8.5em;
+		width: 100%
+	}
+
+	#wrapper-citibank {
+		margin-top: 8em;
+	}
+
+	#citibank-temp {
+		top: 0;
+		margin-bottom: 1.5em;
+	}
+
+	#citibank-laptop {
+		width: 90%;
+	}
+}
+
+/***************************
+******** Retailers *********
+**************************/
+.retailer {
+	background: #f2f1ec;
+	font-family: 'avenir_nextregular', Arial, sans-serif;
+	font-size: 1em;
+	padding: 1em 0;
+	color: #333;
+	line-height: 1.75em;		
+}
+
+.retailer .right{
+	text-align: center;
+	float: right; 
+}
+.retailer h1{
+	text-align: left; 
+}
+
+.retailer p {
+	margin: 0 auto;
+	text-align: left; 
+}
+
+
+/***************************
+******** CONSUMERS *********
+**************************/
+.consumer {
+	background: #f2f1ec;
+	font-family: 'avenir_nextregular', Arial, sans-serif;
+	font-size: 1em;
+	padding: 1em 0;
+	color: #333;
+	line-height: 1.75em;
+	text-align: left;	
+	position: relative; 	
+}
+
+.consumer h2 {
+	color: #82827B;
+}
+
+.consumer p {
+	margin: 0 auto;
+}
+
+#title-consumer {
+	display: inline-block;
+	width: 100%;
+	position: relative;
+	left: 0px;
+	top: -12px;
+	font-size: 1.6em;
+	font-family: 'Arvo', serif;
+	font-weight: 700;
+	text-align: left; 
+	color: #82827B;
+	margin-bottom: 1epm;
+	
+}
+
+.consumer .right {	
+	float: right;
+	display: inline-block;
+	text-align: center;	
+	position: relative;	
+	margin: 2em auto; 	
+}
+
+#consumer-img {
+	width: 55%;
+	margin-right:0;
+	margin-left: auto;
+	display: block;
+}
+
+@media all and (max-width: 800px) {
+	#weinvest-large {
+		width: 90%;
+	}
+
+	#weinvest-small {
+		width: 60%;
+	}
+
+	#title-consumer {
+		display: none;
+	}
+
+	#header-weinvest {
+		margin-top: 7em;
+	}
+
+	#weinvest-logo {
+		display: block;
+		margin: 2em auto 3em;
+	}
+}
+
+@media all and (max-width: 600px) {
+	#weinvest-large {
+		width: 100%;
+	}
+
+	#weinvest-small {
+		width: 80%;
+	}
+
+	#title-consumer {
+		width: 100%;
+		top: 0;
+		left: 0;
+	}
+}
+
+@media all and (max-width: 480px) {
+	#header-weinvest {
+		margin-top:4.5em;
+	}
+}
+
+/* THIRD ROW */
+.third-row {
+	overflow: hidden;
+	margin-top: 0em;
+	padding-bottom: 3em;
+}
+
+/* BLUESKY */
+#wrapper-bluesky {
+	width: 49%;
+	display: inline-block;
+	vertical-align: bottom;
+	position: relative;
+	height: 540px;
+}
+
+#bluesky {
+	text-align: left;
+	overflow: hidden;
+}
+
+#bluesky-logo {
+	/*background: url(img/product/bluesky-final.png) no-repeat;*/
+	background-size: 154px 36px;
+	-webkit-background-size: 154px 36px;
+	-moz-background-size: 154px 36px;
+	width: 154px;
+	height: 18px;
+}
+
+#bluesky:hover #bluesky-logo {
+	background-position: 0 -20px;
+}
+
+#bluesky .product-info {
+	text-align: left;
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+}
+
+#bluesky-phone {
+	width: 380px;
+	margin-top: 1.5em;
+	margin-left: 0px;
+}
+
+#bluesky:hover #bluesky-phone {
+	margin-top: 0.8em;
+}
+
+/* JFDI */
+#wrapper-jfdi {
+	width: 50%;
+	display: inline-block;
+	vertical-align: bottom;
+	height: 560px;
+}
+
+#jfdi {
+	width: 100%;
+	text-align: left;
+}
+
+
+
+#jfdi-logo {
+	/*background: url(img/product/jfdi-final.png) no-repeat;*/
+	background-size: 63px 108px;
+	-webkit-background-size: 63px 108px;
+	-moz-background-size: 63px 108px;
+	width: 63px;
+	height: 54px;
+	margin-bottom: 1.5em;
+}
+
+#jfdi:hover #jfdi-logo {
+	background-position: 0 -56px;
+	margin-bottom: 1em;
+}
+
+#jfdi-website {
+	width: 476px;
+}
+
+/* Handles 960 - 600px */
+@media all and (max-width: 960px) {
+	#wrapper-bluesky {
+		width: 90%;
+		text-align: center;
+	}
+
+	#bluesky {
+		text-align: center;
+	}
+
+	#bluesky .product-info{
+		text-align: center;
+	}
+
+	#bluesky-logo {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#bluesky-phone {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#wrapper-jfdi {
+		width: 90%;
+		margin-top: 5em;
+	}
+
+	#jfdi {
+		text-align: center;
+	}
+
+	#jfdi-logo {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#jfdi-website {
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+@media all and (max-width: 800px) {
+	.third-row {
+		margin-top: 5em;
+	}
+}
+
+/* Handles 600 - 480px */
+@media all and (max-width: 600px) {
+	#wrapper-bluesky {
+		width: 100%;
+		height: auto;
+	}
+
+	#bluesky-phone {
+		width: 85%;
+		margin: 0.5em auto;
+	}
+
+	#wrapper-jdfi {
+		width: 100%;
+		height: auto;
+	}
+
+	#jfdi-website {
+		width: 100%;
+	}
+}
+
+/* Handles 480px and below */
+@media all and (max-width: 480px) {
+	#wrapper-jfdi {
+		position: relative;
+		top: -15px;
+		height: auto;
+	}
+
+	.third-row {
+		margin-top: 4em;
+		padding-bottom: 2em;
+	}
+}
+
+
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio: 1)  {
+	.product-info {
+		display: block
+	}
+
+	#mcd #mcd-logo {
+		background-position: 0 -52px;
+		margin-bottom: 1.5em;
+	}
+
+	#samsung #samsung-logo {
+		background-position: 0 -46px;
+		margin-bottom: 1.5em;
+	}	
+
+	#citibank #citibank-logo {
+		background-position: 0 -33px;
+		margin: 0 auto 1em;
+	}
+
+	#bluesky #bluesky-logo {
+		background-position: 0 -20px;
+	}
+
+	#jfdi #jfdi-logo {
+		background-position: 0 -56px;
+		margin-bottom: 1em;
+	}
+
+	#weinvest-logo{
+		background-position: 0 -41px;
+	}
+}
+
+
+/*******************************
+********* Download App *********
+*******************************/
+
+/* Appropriate for 960 - 1600px */
+.download {
+	background: #A1C6EB;
+	/*font-family: 'avenir_nextregular';*/
+	font-size: 1em;
+	padding: 3em 0;
+	color: #333;
+	line-height: 1.75em;
+}
+
+.download h1 {
+	font-size: 1.75em;
+	color: #333333;
+	line-height: 1.625em;
+	margin: 1em 0 1em;
+	text-align: left;
+	/*font-family: 'avenir_nextregular';*/
+}
+
+.download h2 {
+	color: #1A4C33;
+	margin: 0;
+	width: 100%;
+}
+
+.download p {
+	margin: 1.5em auto;
+}
+
+.download .left {
+	width: 45%;
+	float: none;
+	display: inline-block;
+	margin-right: 9%;
+}
+
+.download .right {
+	width: 45%;
+	float: right;
+	display: inline-block;
+	text-align: center;	
+	position: relative;
+	top: 20px;
+	/*right: 20%;*/	
+}
+
+#download-img {
+	width: 100%;
+	margin-right:0;
+	margin-left: auto;
+	display: block;
+}
+
+/*******************************
+*********** About Us ***********
+*******************************/
+
+.about-us {
+	background: url(background2.jpg) no-repeat fixed center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-size: 1em;
+	top: 0;
+	line-height: 2em;
+	padding: 6.5em 0;
+}
+
+.about-us h1 {
+	font-size: 29px;
+	color: #007AA3;
+	text-align: center;
+	line-height: 45px;
+	margin-top: 1em;
+	margin-bottom: 1.5em;
+}
+
+.about-us .content2 {
+	width: 75%;
+	margin: 0em auto;
+	overflow: hidden;
+}
+
+.about-us p {
+	margin: 0 auto 1.5em;
+	width: 63%;
+	font-family: 'AvenirNextUltraLight', Arial, sans-serif;
+	text-align: left;
+}
+
+.about-us p:last-of-type {
+	margin: 0 auto 0em;
+}
+
+.about-us h2 {
+	color: #8c8478;
+	text-align: center;
+	margin-bottom: 0em
+}
+
+@media all and (max-width: 1024px) {
+	.about-us {
+		background: url(background2.jpg) no-repeat center;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+}
+
+@media all and (max-width: 990px) {
+	.about-us .content2 {
+		width: 90%
+	}
+}
+
+@media all and (max-width: 768px) {
+	.about-us .content2 {
+		width: 100%
+	}
+
+	.about-us p {
+		width: 70%;
+	}
+
+	.about-us {
+		background: url(background2.jpg) no-repeat scroll center;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		padding: 5em 0 8em;
+	}
+}
+
+@media all and (max-width: 667px) {
+	.about-us h1 {
+		width: 90%;
+		margin-right: auto;
+		margin-left: auto
+	}
+}
+
+@media all and (max-width: 600px) {
+	.about-us h1 {
+		width: 100%;
+		font-size: 1.5625em;
+		line-height: 1.625em;
+	}
+
+	.about-us p{
+		width: 100%;
+		/*font-family: 'avenir_nextregular', Arial, sans-serif;*/
+	}
+
+	.about-us {
+		/*background: url(img/about-mobile.jpg) no-repeat scroll right; ----- to do*/
+		background: url(background2.jpg) no-repeat scroll right;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		padding: 5em 0 6em;
+	}
+}
+
+@media all and (max-width: 520px) {
+	.about-us p {
+		font-size: 0.875em;
+	}
+}
+
+@media all and (max-width: 320px) {
+
+	.about-us h1 {
+		
+		width: 99%;
+		margin: 1em auto 1.5em;
+	}
+
+	.about-us {
+		/*background: #000 url(img/about-iphone.jpg) no-repeat scroll top; --to do*/
+		background: #000 url(background2.jpg) no-repeat scroll top;
+		-webkit-background-size: 100%;
+		-moz-background-size: 100%;
+		-o-background-size: 100%;
+		background-size: 100%;
+		padding: 3em 0 4em;
+		line-height: 1.6875em;
+	}
+}
+
+
+
+/*******************************
+************* Team *************
+*******************************/
+
+/* products from 960px to Large */
+.team {
+	background: #fff;
+	background-size: 100%;
+	font-size: 1em;
+	top: 0;
+	color: #333;
+	line-height: 1.8125em;
+	padding: 6em 0;
+	display: inline-block;
+}
+
+
+.team h2 {
+	color: #ccc;
+	font-weight: lighter;
+	font-size: 1em;
+	margin-bottom: 1em;
+}
+
+.team h1 {
+	font-size: 1.75em;
+	color: #333;
+	line-height: 1.4em;
+	width: 70%;
+	text-align: left;
+	margin-top: 0;
+	margin-bottom: 1em;
+}
+
+/* each teamrow contains up to 4 members*/	
+/* each member has a headshot, a name, a title, a place, a dot and a button (not added yet)*/
+.member {
+	width: 24%;
+	text-align: center;
+	display: inline-block;
+}
+
+.name {
+	font-size: 1.4em;
+	font-weight: bold;
+}
+
+.title {
+	font-family: 'Arvo', serif;
+	font-weight: 700;
+	font-size: 1em;
+	font-weight: lighter;
+	letter-spacing: 0px;
+	margin: .3em 0;
+	color: #999;
+}
+
+.headshot {
+	width: 90%;
+}
+
+.place {
+	width: 90%;
+	margin: auto;
+	font-style: italic;
+	padding-right: 10px;
+}
+
+.place img {
+	height: 13px;
+}
+
+.dot {
+	margin-right: 3px;
+}
+/* change font colours for each individual places */
+.mel {
+	color: #ffc40f;
+}
+
+.cleo {
+	color: #3db9dd;
+}
+
+.mary {
+	color: #c472e6;
+}
+
+.peach {
+	color: #e75faf;
+}
+
+/* deals with screens less than 960px; there are still 
+slight problems between 960 - 600px; but they can only be
+after adding the additional features; some design elements
+need tweaking */
+/* expand the h1 to cover more of the screen */
+@media screen and (max-width: 960px) {
+	.team h1 {
+		width: 75%;
+	}
+}
+
+/* deals screens less than 600px */
+/* Switch from 4 to 1 per row */
+@media screen and (max-width: 750px) {
+	.team h1 {
+		width: 100%
+	}
+
+	.member {
+		width: 100%;
+		margin-top: 3em;
+	}
+
+	.headshot {
+		width: 70%;
+	}
+}
+
+/*******************************
+*********** Contact ************
+*******************************/
+
+.contact {
+	background: #000 url(background4.png) no-repeat 50% 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-size: 1em;
+	line-height: 2em;
+	color: #dcddde;
+	padding: 10em 0 10em;	
+	text-align: center;
+}
+
+.contact h2 {
+	color: #a7abab;
+	margin-top: 0.5em;
+	margin-bottom: 0;
+}
+
+.contact h1 {
+	color: #dcddde;
+	margin: 0.75em auto 0.4em;
+	line-height: 1.625em;
+	font-size: 28px;
+	width: 60%
+}
+
+.contact p {
+	font-family: 'AvenirNextUltraLight', Arial, sans-serif;
+	font-size: 1em;
+}
+
+.contact a.emailaddress {
+	color: #a7abab;
+	font-family: 'avenir_nextdemi_bold', Arial, sans-serif;
+	
+}
+
+/* the styles for 'commmon' are applied to both the textarea and the hidden clone */
+/* these must be the same for both */
+.common {
+    min-height: 50px;
+    overflow: hidden;
+}
+
+.lbr {
+    line-height: 3px;
+}
+
+@media all and (max-width: 800px) {
+	.contact h1 {
+		width: 75%;
+	}
+}
+
+@media all and (max-width: 768px) {
+	.contact {
+		background: #000 url(background4.png) no-repeat scroll center;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}	
+}
+
+
+@media all and (max-width: 700px) {
+	.contact h1 {
+		width: 100%;
+	}
+}
+
+@media all and (max-width: 600px) {
+	.contact h1 {
+		font-size: 25px;
+		width: 100%
+	}
+}
+
+@media all and (max-width: 520px) {
+	.contact p {
+		font-size: 0.875em;
+	}
+}
+
+@media all and (max-width: 320px) {
+	.contact h1 {
+		
+		width: 100%
+	}
+}
+
+/*******************************
+********** Instagram **********
+*******************************/
+
+.instagram-1 {
+	padding: 10px 0 0;
+	background: #fff;
+	min-width: 100%;
+	margin-top: 4em
+}
+
+.instagram-1 .content {
+	width: 98.5%;
+	margin: 0 auto
+}
+
+
+/*******************************
+************ Footer ************
+*******************************/
+
+footer {
+	width: 100%;
+	background: #232323;
+	padding: 2em 0;
+	overflow: hidden;
+	margin-top: 2em;
+}
+
+footer .content {
+	position: relative;
+}
+
+footer img.logo {
+	width: 42px;
+	position: absolute;
+	margin-left: -21px;
+	left: 50%;
+	bottom: -2.3125em
+}
+/*
+footer ul {
+	margin-left: 0em;
+	float: left;
+}*/
+
+footer .left {
+	margin-left: 0em;
+	float: left;
+	text-align: left;
+}
+
+footer .right {
+	margin-right: 0em;
+	float: right;
+}
+
+
+footer ul, footer ul li {
+	list-style-type: none;
+	display: inline;
+}
+
+footer a.contact-link {
+	color: #fff;
+}
+
+footer a {
+	font-family: 'avenir_nextdemi_bold';
+	color: #666;
+	display: inline-block;
+	font-size: 10px;
+	text-transform: uppercase;
+	margin-right: 2.75em;
+	margin-top: 0em;
+	letter-spacing: 2px;
+	font-weight: normal;
+}
+
+footer a:hover {
+	color: #fff;
+}
+
+footer .right {
+	text-align: right;
+	margin-top: 0px;
+}
+
+footer .right p {
+	color: #666666;
+	font-size: 0.875em;
+	font-family: 'avenir_nextdemi_bold';
+}
+
+footer .right img {
+	margin: 0 0.5em;
+}
+
+@media all and (max-width: 850px) {
+	footer img.logo {
+		display: none
+	}
+
+	footer a {
+		margin-right: 2em
+	}
+}
+
+@media all and (max-width: 700px) {
+	footer a {
+		margin-right: 1.5em
+	}
+}
+
+@media all and (max-width: 640px) {
+	footer a {
+		margin-right: 1em
+	}
+}
+
+
+@media all and (max-width: 600px) {
+
+	footer a {
+		margin-right: 0.5em
+	}
+
+	footer .left,
+	footer .right {
+		float: none;
+		width: 100%;
+		text-align:center;
+	}
+
+	footer ul {
+		margin-left: 0em;
+		float: none;
+		width: 100%;
+	}
+
+	footer a {
+		padding: 0.5em 1em;
+	}
+}
+
+@media all and (max-width: 450px) {
+	footer a {
+		padding: 0.25em 0.25em;
+	}
+}
+
+@media all and (max-width: 320px) {
+	footer a {
+		padding: 0.25em 0.125em;
+	}
+}
+
+
+/**/
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (-webkit-min-device-pixel-ratio: 1), (min-device-width : 320px) and (max-device-width : 568px) and (-webkit-min-device-pixel-ratio: 1)   {
+	.top p {
+		font-family: 'avenir_nextregular';
+	}
+
+	.about-us p {
+		font-family: 'avenir_nextregular';
+	}
+
+	.map p {
+		font-family: 'avenir_nextregular';
+	}
+
+	.contact p {
+		font-family: 'avenir_nextregular';
+	}
+
+	.linkedin, .twitter, .blog {
+		background-position: 0px -22px;
+	}
+
+	.instagram {
+		background-position: 0px -26px;
+	}
+}
+
+/*******************************
+************* Fonts ************
+*******************************/
+
+@font-face {
+    font-family: 'AvenirNextUltraLight';
+    src: url('fonts/avenirnext-ultralight.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'avenir_nextdemi_bold';
+    src: url('fonts/avenirnext-demibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'avenir_nextregular';
+    src: url('fonts/avenirnext-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'lavanderia_regularregular';
+    src: url('fonts/lavanderia_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
