@@ -232,7 +232,7 @@ a.contactlink-mobile  {
 .top {
 	top: 0;
 	padding: 1.6875em 0;
-	background: url('background1.jpg') no-repeat fixed top; /*background photo*/
+	background: url('../images/background1.jpg') no-repeat fixed top; /*background photo*/
 	/*background: url('http://melewi.net/background1.jpg') no-repeat fixed top;*/
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -291,8 +291,8 @@ a.contactlink-mobile  {
 @media all and (max-width: 1024px) {
 	.top {
 		padding: 1.6875em 0;
-		/*background: url(background1.jpg) no-repeat -200px 0;*/
-		background: url('background1.jpg') no-repeat 50% 100%;
+		/*background: url(../images/background1.jpg) no-repeat -200px 0;*/
+		background: url('../images/background1.jpg') no-repeat 50% 100%;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
@@ -310,7 +310,7 @@ a.contactlink-mobile  {
 @media all and (max-width: 768px) {
 
 	.top {
-		background: #000 url('background1.jpg') no-repeat scroll right;
+		background: #000 url('../images/background1.jpg') no-repeat scroll right;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
@@ -351,7 +351,7 @@ a.contactlink-mobile  {
 	}
 
 	.top {
-		background: #000 url(background1.jpg) top;
+		background: #000 url(../images/background1.jpg) top;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
@@ -368,7 +368,7 @@ a.contactlink-mobile  {
 @media all and (max-width: 320px) {
 	.top {
 		/*background: #000 url(img/melewiheader-iphone.jpg) no-repeat scroll top;*/
-		background: #000 url(background1.jpg) no-repeat scroll top;
+		background: #000 url(../images/background1.jpg) no-repeat scroll top;
 		-webkit-background-size: 100%;
 		-moz-background-size: 100%;
 		-o-background-size: 100%;
@@ -1337,7 +1337,7 @@ img.bottom-product1 {
 *******************************/
 
 .about-us {
-	background: url(background2.jpg) no-repeat fixed center;
+	background: url(../images/background2.jpg) no-repeat fixed center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -1382,7 +1382,7 @@ img.bottom-product1 {
 
 @media all and (max-width: 1024px) {
 	.about-us {
-		background: url(background2.jpg) no-repeat center;
+		background: url(../images/background2.jpg) no-repeat center;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
@@ -1406,7 +1406,7 @@ img.bottom-product1 {
 	}
 
 	.about-us {
-		background: url(background2.jpg) no-repeat scroll center;
+		background: url(../images/background2.jpg) no-repeat scroll center;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
@@ -1437,7 +1437,7 @@ img.bottom-product1 {
 
 	.about-us {
 		/*background: url(img/about-mobile.jpg) no-repeat scroll right; ----- to do*/
-		background: url(background2.jpg) no-repeat scroll right;
+		background: url(../images/background2.jpg) no-repeat scroll right;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
@@ -1462,7 +1462,7 @@ img.bottom-product1 {
 
 	.about-us {
 		/*background: #000 url(img/about-iphone.jpg) no-repeat scroll top; --to do*/
-		background: #000 url(background2.jpg) no-repeat scroll top;
+		background: #000 url(../images/background2.jpg) no-repeat scroll top;
 		-webkit-background-size: 100%;
 		-moz-background-size: 100%;
 		-o-background-size: 100%;
@@ -1599,7 +1599,7 @@ need tweaking */
 *******************************/
 
 .contact {
-	background: #000 url(background4.png) no-repeat 50% 100%;
+	background: #000 url(../images/background4.png) no-repeat 50% 100%;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -1655,7 +1655,7 @@ need tweaking */
 
 @media all and (max-width: 768px) {
 	.contact {
-		background: #000 url(background4.png) no-repeat scroll center;
+		background: #000 url(../images/background4.png) no-repeat scroll center;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
