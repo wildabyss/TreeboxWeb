@@ -1,14 +1,23 @@
 <!DOCTYPE html>
 <html lang="en" title="">
-	<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<title>RECO</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+	<head>
+		<!--<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">-->
+		<!--<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">-->
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		
+		<title>RECO | Welcome</title>
+		<link rel="shortcut icon" type="image/x-icon" href="images/logo2.png">
+		
 		<link rel="stylesheet" type="text/css" href="stylesheets/normalize.css">
 		<link rel="stylesheet" href="stylesheets/test.css" type="text.css" media="screen">
-		<link rel="shortcut icon" type="image/x-icon" href="images/logo2.png">
-
+		<link rel="stylesheet" href="stylesheets/foundation.css" />
+			
+		<script src="javascripts/vendor/modernizr.js"></script>
+		
 		<!--scrolling animation script-->
 		<script src="javascripts/jquery.min.js"></script>
+		
 	</head>
 
 	<body title="">
@@ -37,92 +46,72 @@
 				</div>
 			</div>
 		</section>
-
+		
 		<!-- What We Do section -->
 		<section class="section whatwedo">
-			<div class="content">
-				<h1>What we do</h1>
-				<div class="left">
-					<h1> We help both retailers and <span class="break"> end-user customers. </span></h1>
+			<div class="row content">				
+				<div class="small-12 large-6 columns">
+					<h1>What we do</h1>		
+					<h5> We help both retailers and end-user customers. </span></h5>
 					<p><strong>For retailers:</strong> We'll help businesses directly save trees by convert paper receipts into digital receipts. At the same time, we'll help analyze receipt data and help retailers make customer specific promotions.</p>
 					<p><strong>For end-user customers:</strong> We help with organization, and save tress.</p>
 				</div>
 
 
-				<div class="right">
+				<div class="small-12 large-6 columns">
 					<img id="consumer-img" src="images/main_drawer_out.png">
-				</div>
-
-				<!--
-				<div class="right webz">
-					<div class="do"><img src="images/ic_strategy.png">Strategy</div>
-					<div class="do"><img src="images/ic_ux.png"> User Experience</div>
-					<div class="do"><img src="images/ic_mobile.png"> Mobile</div>
-					<div class="do"> <img src="images/ic_web.png">Web</div>
-				</div>
-
-				<div class="right mobilez">
-					<div class="do"><img src="images/ic_strategy.png">Strategy</div>
-					<div class="do"><img src="images/ic_ux.png">User Experience</div>
-					<div class="do"><img src="images/ic_mobile.png">Mobile</div>
-					<div class="do"><img src="images/ic_web.png">Web</div>
-				</div>
-				-->
+				</div>				
 			</div>
 		</section>
 
-		<!-- === Customers === -->
-		<section class="section customers" id="product">
-
-			<!-- Retailers -->
-			<div class="content">
-				<div class="retailer">
-					<div class="left">
+		<!-- === Product / Customers === -->
+		<!-- Retailers -->
+		<section class="section customers" id="product">			
+			<div class="row content ">				
+					<div class="small-12 large-6 columns">
 						<h1>For Retailers</h1>
 						<p>Consumers with NPC enabled smartphones can take full advantage of this green digital ecosystem.</p>
 						<p>No more storing receipts in shoe boxes. Store everything on your phone.</p>
 						<p>Get personalized deals from retailers directly to your phone.</p>
 						<p>targeted ads, profit, save paper, data anlysis
 					</div>
-
-					<div class="right webz">
+					
+					<div class="small-12 large-6 columns">
 						<div class="do"><img src="images/user_insight.png">User Insight</div>
 						<div class="do"><img src="images/mobile_ads.png"> Targeted Ads</div>
 						<div class="do"><img src="images/analytics.png"> Analytics</div>
 						<div class="do"> <img src="images/green_globe.png">Green Initiative</div>
-					</div>
-				</div>
-			</div>
-
+					</div>				
+			</div>		
+			
 			<!-- section transition graphic -->
 			<img src="images/bottom-1.png" class="bottom-product1">
-
-			<!-- Consumers -->
-			<div class="content">
-				<div class="consumer">
-					<!--<h2 id="title-consumer">For Consumers</h2>-->
-					<div class="left">
-						<h1>For Consumers</h1>
-						<p>Consumers with NPC enabled smartphones can take full advantage of this green digital ecosystem.</p>
-						<p>No more storing receipts in shoe boxes. Store everything on your phone.</p>
-						<p>Get personalized deals from retailers directly to your phone.</p>
-						<p> NFC, tap, personalized deals, cloud backup, organization </p>
-					</div>
-
-					<div class="right webz">
-						<div class="do"><img src="images/digital_receipt.png">Convinient</div>
-						<div class="do"><img src="images/cloud_storage.png"> Cloud Backup</div>
-						<div class="do"><img src="images/tree_planting.png"> Save Trees</div>
-						<div class="do"> <img src="images/discounts.png">Personalized Deals</div>
-					</div>
+		</section>
+		
+		<!-- Consumers -->
+		<section class="class customers" id="consumers">			
+			<div class="row content">			
+				<div class="small-12 large-6 columns">
+					<h1>For Consumers</h1>
+					<p>Consumers with NPC enabled smartphones can take full advantage of this green digital ecosystem.</p>
+					<p>No more storing receipts in shoe boxes. Store everything on your phone.</p>
+					<p>Get personalized deals from retailers directly to your phone.</p>
+					<p> NFC, tap, personalized deals, cloud backup, organization </p>
 				</div>
+
+				<div class="small-12 large-6 columns">
+					<div class="do"><img src="images/digital_receipt.png">Convinient</div>
+					<div class="do"><img src="images/cloud_storage.png"> Cloud Backup</div>
+					<div class="do"><img src="images/tree_planting.png"> Save Trees</div>
+					<div class="do"> <img src="images/discounts.png">Personalized Deals</div>
+				</div>			
 			</div>
 		</section>
 
 		<!--Download section -->
 		<section class="section download" id="download-nav">
-			<div class="content">
-				<div class="left">
+			<div class="row content">
+				<div class="small-12 large-6 columns">
 					<h1>Download the Mobile App</h1>
 					<p> Download the fast and intuitive apps from your Android and iOS smartphones. This app works best with NFC support devices.</p>
 					<div class="download-badges">
@@ -134,7 +123,7 @@
 				</div>
 
 
-				<div class="right">
+				<div class="small-12 large-6 columns">
 					<img id="download-img" src="images/app_download.png">
 				</div>
 			</div>
@@ -142,31 +131,28 @@
 
 		<!-- About Us section -->
 		<section class="section about-us" id="about">
-			<div class="content">
-				<div class="content2">
+			<div class="row content">				
 					<h1>About Us</h1>
 					<h1>We are Lab V.</h1>
 					<p>Our story goes here </p>
 					<p>Put photos here</p>
-				</div>
 			</div>
 		</section>
 
 		<!-- Contact -->
 		<section class="section contact" id="contact-us" title="">
-			<div class="content">
+			<div class="row content">
 				<img src="images/letter.png" width="30px">
 				<h2>Contact</h2>
 				<h1>Become a pilot retailer by contacting us. <br> We'll save earth together. </h1>
-				<p>Get started by saying hello! Drop us a message here or at <a href="mailto:hello@reco.net" class="emailaddress">hello@reco.net</a></p>
-				<div class="clear"></div>
+				<p>Get started by saying hello! Drop us a message here or at <a href="mailto:hello@reco.net" class="emailaddress">hello@reco.net</a></p>				
 			</div>
 		</section>
 
 		<!-- Footer -->
 		<footer title="">
-			<div class="content" title="">
-				<div class="left">
+			<div class="row content" title="">
+				<div class="small-12 large-4 columns">
 					<ul>
 						<li><a href="#">Home</a></li>
 						<li><a href="#product">Product</a></li>
@@ -176,15 +162,20 @@
 						<li><a href="blog link" class="blog">Blog</a></li>
 					</ul>
 				</div>
-				<div class="span2" style="position:relative;">
-				<div class="right">
+				
+				<div class="small-12 large-4 columns">
+					<img class="logo" src="images/logo1.png" alt="logo" title="">
+				</div>
+				
+				<div class="small-12 large-4 columns">
 					<!--<h4>Keep In Touch</h4>-->
 					<ul>
 						<li class="fb"><a href="https://www.facebook.com/"><span class="ico"></span>Facebook</a></li>
 						<li class="tw"><a href="https://twitter.com/"><span class="ico"></span>Twitter</a></li>
 					</ul>
 				<div>
-				<img class="logo" src="images/logo1.png" alt="logo" title="">
+				
+				
 			</div>
 			</div>
 		</footer>
@@ -199,5 +190,12 @@
                 ani.initialize();
             });
         </script>
+		
+		<!-- Foundation scripts -->
+		 <script src="javascripts/vendor/jquery.js"></script>
+		<script src="javascripts/foundation.min.js"></script>
+		<script>
+			$(document).foundation();
+		</script>
 	</body>
 </html>
