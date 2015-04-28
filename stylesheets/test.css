@@ -61,21 +61,11 @@ a {
 }
 
 a:hover {
-	color: #999999;
+	color: #00CCFF;
 }
 
 .clear {
 	clear: both;
-}
-
-.left {
-	width: 50%;
-	float: left
-}
-
-.right {
-	width: 50%;
-	float: right;
 }
 
 h2 {
@@ -149,6 +139,10 @@ strong {
 ************** Top *************
 *******************************/
 
+.top-bar {
+	font-size: 1;
+}
+
 .logo {
 	float: left;
 	width: 40%
@@ -164,19 +158,19 @@ strong {
 	display: none;
 }
 
-.navigation {
+.navi {
 	float: right;
 	width: 60%;
 	text-align: right;
 	margin-top: 0.75em;
 }
 
-.navigation ul, .navigation ul li {
+.navi ul, .navi ul li {
 	list-style-type: none;
 	display: inline;
 }
 
-.navigation a{
+.navi a{
 	font-family: 'avenir_nextregular', Arial, sans-serif;
 	color: #fff;
 	display: inline-block;
@@ -187,20 +181,20 @@ strong {
 }
 
 
-.navigation a:hover {
+.navi a:hover {
 	color: #313131;
 	font-family: 'avenir_nextregular', Arial, sans-serif;
 }
 
-.navigation a.about {
+.navi a.about {
 	padding-right: 2.75em;
 }
 
-.navigation a.download {
+.navi a.download {
 	background: transparent; 
 }
 
-.navigation a.contactlink, a.contactlink-mobile  {
+.navi a.contactlink, a.contactlink-mobile  {
 	padding: 0.125em 1.75em;
 	border-radius: 5px;
 	-moz-border-radius: 5px;
@@ -221,7 +215,7 @@ a.contactlink-mobile  {
 	margin: 2em auto;
 }
 
-.navigation a.contactlink:hover, a.contactlink1:hover {
+.navi a.contactlink:hover, a.contactlink1:hover {
 	background: rgba(255,255,255,0.25);
 	color: #fff;
 	padding: 0.375em 1.75em;
@@ -231,9 +225,8 @@ a.contactlink-mobile  {
 
 .top {
 	top: 0;
-	padding: 1.6875em 0;
+	/*padding: 1.6875em 0;*/
 	background: url('../images/background1.jpg') no-repeat fixed top; /*background photo*/
-	/*background: url('http://melewi.net/background1.jpg') no-repeat fixed top;*/
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -346,7 +339,12 @@ a.contactlink-mobile  {
 	color: #333;
 	width: 100%;
 	line-height: 1.75em;
-	text-align: center;
+	
+}
+
+.customers .graphics {
+	text-align: center; 
+
 }
 
 .customers h2 {
@@ -362,23 +360,6 @@ a.contactlink-mobile  {
 	margin: 0em auto 1.25em;
 }
 
-.origin {
-	color: #999;
-	font-style: italic;
-	font-size: 1em;
-}
-
-.kind {
-	color: #333;
-	font-weight: bold;
-	font-size: 1.125em;
-}
-
-.product-info {
-	display: none;
-	width: 100%;
-	margin: 0 auto 2em;
-}
 
 /***************************
 ******** Retailers *********
