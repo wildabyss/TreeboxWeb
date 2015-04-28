@@ -23,5 +23,5 @@
 
 ### Who do I talk to? ###
 
-* Repo owner or admin
+* Repo owner or admin: Ken
 * Other community or team contact
