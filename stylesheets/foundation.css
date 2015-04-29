@@ -1717,7 +1717,7 @@ meta.foundation-mq-topbar {
   height: 2.8125rem;
   line-height: 2.8125rem;
   position: relative;
-  background: #009933; /*#333333*/
+  background: #333333; /*#333333 top-bar background*/
   margin-bottom: 0; }
   .top-bar ul {
     margin-bottom: 0;
@@ -2005,7 +2005,7 @@ meta.foundation-mq-topbar {
 
 @media only screen and (min-width: 40.063em) {
   .top-bar {
-    background: #009933; /*#333333*/
+    background: #333333; /*#333333 top-bar background*/
     overflow: visible; }
     .top-bar:before, .top-bar:after {
       content: " ";
@@ -2056,7 +2056,7 @@ meta.foundation-mq-topbar {
     .top-bar-section li:not(.has-form) a:not(.button) {
       padding: 0 0.9375rem;
       line-height: 2.8125rem;
-      background: #009933; } /*#333333*/
+      background: #333333; } /*#333333 top-bar background*/
       .top-bar-section li:not(.has-form) a:not(.button):hover {
         background-color: #555555;
         background: #333333; }

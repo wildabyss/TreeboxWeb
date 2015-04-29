@@ -26,6 +26,7 @@ html, body {
 	height: 100%;	
 }
 
+/*
 body {
 	background: #232323;
 	font-family: 'avenir_nextregular', Arial, sans-serif;
@@ -39,7 +40,7 @@ body {
 	-webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-}
+}*/
 
 
 /*******************************
@@ -47,7 +48,7 @@ body {
 *******************************/
 
 
-a {
+/*a {
 	color: #333333;
 	font-family: 'avenir_nextregular', Arial, sans-serif;
 	font-weight: normal;
@@ -58,16 +59,13 @@ a {
 	-ms-transition: color .3s linear;  
 	transition: color .3s linear; 
 	
-}
-
-a:hover {
-	color: #00CCFF;
-}
+}*/
 
 .clear {
 	clear: both;
 }
 
+/*
 h2 {
 	font-family: 'Arvo', serif;
 	font-weight: 700;
@@ -91,11 +89,12 @@ h1 {
 	h2 {
 		font-size: 12px;
 	}
-}
+}*/
 
+/*
 strong {
 	font-family: 'avenir_nextdemi_bold';
-}
+}*/
 
 
 /*******************************
@@ -115,25 +114,6 @@ strong {
 	margin: 0px auto;
 	max-width: 1400px;
 }
-
-@media all and (min-width: 1600px) {
-	.content {
-		width: 1200px;
-	}
-}
-
-@media all and (max-width: 990px) {
-	.content {
-		width: 94%;
-	}
-}
-
-@media all and (max-width: 600px) {
-	.content {
-		width: 85%;
-	}
-}
-
 
 /*******************************
 ************** Top *************
@@ -226,7 +206,7 @@ a.contactlink-mobile  {
 .top {
 	top: 0;
 	/*padding: 1.6875em 0;*/
-	background: url('../images/background1.jpg') no-repeat fixed top; /*background photo*/
+	background: url('../images/background1.jpg') repeat fixed top; /*background photo*/
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -271,10 +251,8 @@ a.contactlink-mobile  {
 
 /* Appropriate for 960 - 1600px */
 .whatwedo {
-	background: #fff;
-	font-family: 'avenir_nextregular';
-	font-size: 1em;
-	padding: 3em 0;
+	background: #fff;	
+	font-size: 1em;	
 	color: #333;
 	line-height: 1.75em;
 }
@@ -297,21 +275,8 @@ a.contactlink-mobile  {
 	margin: 1.5em auto;
 }
 
-.whatwedo .left {
-	width: 45%;
-	float: left;
-	display: inline-block;
-	margin-right: 9%;
-}
-
-.whatwedo .right {
-	width: 45%;
-	float: none;
-	display: inline-block;
-	text-align: center;
-	position: relative;
-	top: -40px;
-	left: 3.5%;
+.whatwedo img {
+	padding: 2em 0;
 }
 
 .do {
@@ -440,9 +405,7 @@ a.contactlink-mobile  {
 *******************************/
 
 /* Appropriate for 960 - 1600px */
-.download {
-	background: #A1C6EB;
-	/*font-family: 'avenir_nextregular';*/
+.download {	
 	font-size: 1em;
 	padding: 3em 0;
 	color: #333;
@@ -455,7 +418,6 @@ a.contactlink-mobile  {
 	line-height: 1.625em;
 	margin: 1em 0 1em;
 	text-align: left;
-	/*font-family: 'avenir_nextregular';*/
 }
 
 .download h2 {
