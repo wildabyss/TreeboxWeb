@@ -26,76 +26,9 @@ html, body {
 	height: 100%;	
 }
 
-/*
-body {
-	background: #232323;
-	font-family: 'avenir_nextregular', Arial, sans-serif;
-	text-align: left;
-	padding : 0;
-	font-size: 1em;
-	letter-spacing: 0;
-	line-height: 1.5625em;
-	color: #fff;
-	font-weight: normal;
-	-webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}*/
-
-
-/*******************************
-*********** Etcetera ***********
-*******************************/
-
-
-/*a {
-	color: #333333;
-	font-family: 'avenir_nextregular', Arial, sans-serif;
-	font-weight: normal;
-	text-decoration: none;  
-	-webkit-transition: color .3s linear;  
-	-moz-transition: color .3s linear;  
-	-o-transition: color .3s linear;  
-	-ms-transition: color .3s linear;  
-	transition: color .3s linear; 
-	
-}*/
-
 .clear {
 	clear: both;
 }
-
-/*
-h2 {
-	font-family: 'Arvo', serif;
-	font-weight: 700;
-	letter-spacing: 0px;
-	font-size: 1em;
-	margin-bottom: 1em;
-	font-weight: bold;
-	color: #82827B;
-	top: -12px;
-}
-
-h1 {
-	font-size: 30px;
-	font-family: 'avenir_nextregular', Arial, sans-serif;
-	color: #fff;
-	margin-top: 2em;
-	line-height: 1.25em;
-}
-
-@media all and (max-width: 400px) {
-	h2 {
-		font-size: 12px;
-	}
-}*/
-
-/*
-strong {
-	font-family: 'avenir_nextdemi_bold';
-}*/
-
 
 /*******************************
 *********** Section ************
@@ -118,9 +51,12 @@ strong {
 /*******************************
 ************** Top *************
 *******************************/
-
 .top-bar {
 	font-size: 1;
+}
+
+.top-bar .right {
+	text-align: center; 
 }
 
 .logo {
@@ -205,7 +141,6 @@ a.contactlink-mobile  {
 
 .top {
 	top: 0;
-	/*padding: 1.6875em 0;*/
 	background: url('../images/background1.jpg') repeat fixed top; /*background photo*/
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -222,7 +157,6 @@ a.contactlink-mobile  {
 	font-size: 34px;
 	color: #fff;
 	line-height: 1.5em;
-	margin-bottom: 1.125em
 }
 
 .top .content2 {
@@ -252,23 +186,14 @@ a.contactlink-mobile  {
 /* Appropriate for 960 - 1600px */
 .whatwedo {
 	background: #fff;	
-	font-size: 1em;	
 	color: #333;
 	line-height: 1.75em;
+	margin: 2em auto; 
 }
 
 .whatwedo h1 {
-	font-size: 1.75em;
-	color: #333333;
-	line-height: 1.625em;
-	margin: 1em 0 1em;
-	text-align: left;
-}
-
-.whatwedo h2 {
-	color: #ccc;
-	margin: 0;
-	width: 100%;
+	font-size: 2em;  
+	margin-bottom: 1em; 
 }
 
 .whatwedo p {
@@ -276,7 +201,34 @@ a.contactlink-mobile  {
 }
 
 .whatwedo img {
-	padding: 2em 0;
+	position: relative;
+	left: 20%; 
+}
+
+/***************************
+******** Retailers *********
+**************************/
+.retailer {
+	background: #f2f1ec;
+	font-size: 1em;	
+	color: #333;
+	line-height: 1.75em;	
+	padding-top: 3em; 
+}
+
+.retailer h1{
+	font-size: 2em; 
+	text-align: left; 
+	margin-bottom: 1em; 
+}
+
+.retailer p {
+	margin: 0 auto;
+	text-align: left; 
+}
+
+.retailer .description {
+	padding-bottom: 2em; 
 }
 
 .do {
@@ -289,88 +241,29 @@ a.contactlink-mobile  {
 	width: 95%;
 }
 
-.break {
-	display: block;
-}
-
-/*******************************
-******** Customers *************
-*******************************/
-.customers {
-	background: #f2f1ec;
-	font-family: 'avenir_nextregular';
-	font-size: 1em;
-	padding: 4.25em 0 0;
-	color: #333;
-	width: 100%;
-	line-height: 1.75em;
-	
-}
-
-.customers .graphics {
-	text-align: center; 
-
-}
-
-.customers h2 {
-	color: #ccc;
-	width: 100%;
-	margin-top: 1em;
-}
-
-.customers h1 {
-	font-size: 1.8em;
-	color: #333;
-	line-height: 45px;
-	margin: 0em auto 1.25em;
-}
-
-
-/***************************
-******** Retailers *********
-**************************/
-.retailer {
-	background: #f2f1ec;
-	font-family: 'avenir_nextregular', Arial, sans-serif;
-	font-size: 1em;
-	padding: 1em 0;
-	color: #333;
-	line-height: 1.75em;		
-}
-
-.retailer .right{
-	text-align: center;
-	float: right; 
-}
-.retailer h1{
-	text-align: left; 
-}
-
-.retailer p {
-	margin: 0 auto;
-	text-align: left; 
-}
-
 /***************************
 ******** CONSUMERS *********
 **************************/
 .consumer {
 	background: #f2f1ec;
-	font-family: 'avenir_nextregular', Arial, sans-serif;
 	font-size: 1em;
-	/*padding: 1em 0;*/
 	color: #333;
 	line-height: 1.75em;
 	text-align: left;	
-	position: relative; 	
+	padding: 3em 0; 
 }
 
-.consumer h2 {
-	color: #82827B;
+.consumer h1{
+	font-size: 2em; 
+	margin-bottom: 1em; 
 }
 
 .consumer p {
 	margin: 0 auto;
+}
+
+.consumer .description {
+	padding-bottom: 2em; 
 }
 
 #title-consumer {
@@ -388,14 +281,6 @@ a.contactlink-mobile  {
 	
 }
 
-.consumer .right {	
-	float: right;
-	display: inline-block;
-	text-align: center;	
-	position: relative;	
-	margin: 2em auto; 	
-}
-
 #consumer-img {
 	width: 55%;	
 }
@@ -409,42 +294,12 @@ a.contactlink-mobile  {
 	font-size: 1em;
 	padding: 3em 0;
 	color: #333;
-	line-height: 1.75em;
 }
 
 .download h1 {
-	font-size: 1.75em;
-	color: #333333;
-	line-height: 1.625em;
-	margin: 1em 0 1em;
+	font-size: 2em; 
 	text-align: left;
-}
-
-.download h2 {
-	color: #1A4C33;
-	margin: 0;
-	width: 100%;
-}
-
-.download p {
-	margin: 1.5em auto;
-}
-
-.download .left {
-	width: 45%;
-	float: none;
-	display: inline-block;
-	margin-right: 9%;
-}
-
-.download .right {
-	width: 45%;
-	float: right;
-	display: inline-block;
-	text-align: center;	
-	position: relative;
-	top: 20px;
-	/*right: 20%;*/	
+	margin-bottom: 1em; 
 }
 
 #download-img {
