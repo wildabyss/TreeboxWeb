@@ -49,7 +49,7 @@ html, body {
 }
 
 /*******************************
-************** Top *************
+******* Navigation *************
 *******************************/
 .top-bar {
 	font-size: 1;
@@ -74,50 +74,6 @@ html, body {
 	display: none;
 }
 
-.navi {
-	float: right;
-	width: 60%;
-	text-align: right;
-	margin-top: 0.75em;
-}
-
-.navi ul, .navi ul li {
-	list-style-type: none;
-	display: inline;
-}
-
-.navi a{
-	font-family: 'avenir_nextregular', Arial, sans-serif;
-	color: #fff;
-	display: inline-block;
-	font-size: 11px;
-	text-transform: uppercase;
-	padding: 0.5em 1.75em;
-	letter-spacing: 2px
-}
-
-
-.navi a:hover {
-	color: #313131;
-	font-family: 'avenir_nextregular', Arial, sans-serif;
-}
-
-.navi a.about {
-	padding-right: 2.75em;
-}
-
-.navi a.download {
-	background: transparent; 
-}
-
-.navi a.contactlink, a.contactlink-mobile  {
-	padding: 0.125em 1.75em;
-	border-radius: 5px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	border: rgba(255,255,255,0.25) 2px solid;
-}
-
 a.contactlink-mobile  {
 	display: none;
 	font-family: 'avenir_nextregular';
@@ -131,22 +87,18 @@ a.contactlink-mobile  {
 	margin: 2em auto;
 }
 
-.navi a.contactlink:hover, a.contactlink1:hover {
-	background: rgba(255,255,255,0.25);
-	color: #fff;
-	padding: 0.375em 1.75em;
-	border: rgba(255,255,255,0) 2px solid;
-}
-
+/*******************************
+************ Top ***************
+*******************************/
 
 .top {
-	top: 0;
 	background: url('../images/background1.jpg') repeat fixed top; /*background photo*/
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	line-height: 2em;
+	line-height: 2em;	
+	text-align: center;
 }
 
 .top .content {
@@ -157,26 +109,7 @@ a.contactlink-mobile  {
 	font-size: 34px;
 	color: #fff;
 	line-height: 1.5em;
-}
-
-.top .content2 {
-	width: 55%;
-	text-align: center;
-	margin: 141px auto 136px;
-}
-
-.top p {
-	margin-top: 0px;
-	font-size: 16px;
-	font-family: 'AvenirNextUltraLight', Arial, sans-serif;
-}
-
-.hidden {
-    display:none;
-}
-
-.top p.quotes {
-	display: none;
+	margin: 6em 0;
 }
 
 /*******************************
@@ -185,10 +118,15 @@ a.contactlink-mobile  {
 
 /* Appropriate for 960 - 1600px */
 .whatwedo {
-	background: #fff;	
+	/*background: #E0FFD1;*/
+	background: url(../images/background3.jpg) no-repeat fixed center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 	color: #333;
 	line-height: 1.75em;
-	margin: 2em auto; 
+	padding: 2em 0; 
 }
 
 .whatwedo h1 {
@@ -209,22 +147,27 @@ a.contactlink-mobile  {
 ******** Retailers *********
 **************************/
 .retailer {
-	background: #f2f1ec;
-	font-size: 1em;	
-	color: #333;
+	background: #006699; /*#f2f1ec;*/
+	font-size: 1em;		
+	color: #fff;
 	line-height: 1.75em;	
-	padding-top: 3em; 
+	padding: 2em 0; 
 }
 
 .retailer h1{
 	font-size: 2em; 
 	text-align: left; 
 	margin-bottom: 1em; 
+	color: #fff;
 }
 
 .retailer p {
 	margin: 0 auto;
 	text-align: left; 
+}
+
+.retailer .graphics{
+	text-align: center; 
 }
 
 .retailer .description {
@@ -245,21 +188,26 @@ a.contactlink-mobile  {
 ******** CONSUMERS *********
 **************************/
 .consumer {
-	background: #f2f1ec;
-	font-size: 1em;
-	color: #333;
+	background: #BCCACA; /*#f2f1ec;*/
+	color: #22222F;
+	font-size: 1em;	
 	line-height: 1.75em;
 	text-align: left;	
 	padding: 3em 0; 
 }
 
 .consumer h1{
+	color: #525252;
 	font-size: 2em; 
 	margin-bottom: 1em; 
 }
 
 .consumer p {
 	margin: 0 auto;
+}
+
+.consumer .graphics{
+	text-align: center; 
 }
 
 .consumer .description {
@@ -322,39 +270,18 @@ a.contactlink-mobile  {
 	font-size: 1em;
 	top: 0;
 	line-height: 2em;
-	padding: 6.5em 0;
+	padding: 3em 0;
 }
 
 .about-us h1 {
-	font-size: 29px;
+	font-size: 2em;
 	color: #007AA3;
 	text-align: center;
 	line-height: 45px;
-	margin-top: 1em;
-	margin-bottom: 1.5em;
-}
-
-.about-us .content2 {
-	width: 75%;
-	margin: 0em auto;
-	overflow: hidden;
-}
-
-.about-us p {
-	margin: 0 auto 1.5em;
-	width: 63%;
-	font-family: 'AvenirNextUltraLight', Arial, sans-serif;
-	text-align: left;
-}
-
-.about-us p:last-of-type {
-	margin: 0 auto 0em;
 }
 
 .about-us h2 {
-	color: #8c8478;
-	text-align: center;
-	margin-bottom: 0em
+	font-size: 1.75em; 
 }
 
 /*******************************
@@ -370,44 +297,30 @@ a.contactlink-mobile  {
 	font-size: 1em;
 	line-height: 2em;
 	color: #dcddde;
-	padding: 7em 0 7em;
+	padding: 3em 0;
 	text-align: center;
-}
-
-.contact h2 {
-	color: #a7abab;
-	margin-top: 0.5em;
-	margin-bottom: 0;
+	height: 32em; 
 }
 
 .contact h1 {
 	color: #dcddde;
 	margin: 0.75em auto 0.4em;
 	line-height: 1.625em;
-	font-size: 28px;
+	font-size: 1.5em; 
 	width: 60%
 }
-
-.contact p {
-	font-family: 'AvenirNextUltraLight', Arial, sans-serif;
-	font-size: 1em;
+.contact h2 {
+	font-size: 1.25em; 
+	color: #dcddde;
+	margin-bottom: 2em; 
 }
 
 .contact a.emailaddress {
 	color: #a7abab;
-	font-family: 'avenir_nextdemi_bold', Arial, sans-serif;
-	
 }
 
-/* the styles for 'commmon' are applied to both the textarea and the hidden clone */
-/* these must be the same for both */
-.common {
-    min-height: 50px;
-    overflow: hidden;
-}
-
-.lbr {
-    line-height: 3px;
+.contact img {
+	margin-bottom: 2em; 
 }
 
 /*******************************
@@ -422,32 +335,12 @@ footer {
 	text-align: center;
 }
 
-footer .content {
-	position: relative;
-}
-
 footer img.logo {
 	width: 42px;
 	position: absolute;
 	margin-left: -21px;
 	left: 50%;
 	bottom: -2.3125em
-}
-/*
-footer ul {
-	margin-left: 0em;
-	float: left;
-}*/
-
-footer .left {
-	margin-left: 0em;
-	float: left;
-	text-align: left;
-}
-
-footer .right {
-	margin-right: 0em;
-	float: right;
 }
 
 
@@ -456,15 +349,11 @@ footer ul, footer ul li {
 	display: inline;
 }
 
-footer a.contact-link {
-	color: #fff;
-}
-
 footer a {
 	font-family: 'avenir_nextdemi_bold';
-	color: #666;
+	color: #B2B2B2;
 	display: inline-block;
-	font-size: 10px;
+	font-size: 11px; 
 	text-transform: uppercase;
 	margin-right: 2.75em;
 	margin-top: 0em;
@@ -474,21 +363,6 @@ footer a {
 
 footer a:hover {
 	color: #fff;
-}
-
-footer .right {
-	text-align: right;
-	margin-top: 0px;
-}
-
-footer .right p {
-	color: #666666;
-	font-size: 0.875em;
-	font-family: 'avenir_nextdemi_bold';
-}
-
-footer .right img {
-	margin: 0 0.5em;
 }
 
 /*******************************
