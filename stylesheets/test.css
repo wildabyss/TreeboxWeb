@@ -119,7 +119,7 @@ a.contactlink-mobile  {
 /* Appropriate for 960 - 1600px */
 .whatwedo {
 	/*background: #E0FFD1;*/
-	background: url(../images/background3.jpg) no-repeat fixed center;
+	background: url(../images/background3.jpg) repeat fixed center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -262,7 +262,7 @@ a.contactlink-mobile  {
 *******************************/
 
 .about-us {
-	background: url(../images/background2.jpg) no-repeat fixed center;
+	background: url(../images/background2.jpg) repeat fixed center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -289,7 +289,7 @@ a.contactlink-mobile  {
 *******************************/
 
 .contact {
-	background: #000 url(../images/background4.png) no-repeat 50% 100%;
+	background: #000 url(../images/background4.png) repeat 50% 100%;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
