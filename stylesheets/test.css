@@ -92,14 +92,21 @@ a.contactlink-mobile  {
 *******************************/
 
 .top {
-	background: url('../images/background1.jpg') repeat fixed top; /*background photo*/
+	background: url('../images/background1.jpg') no-repeat fixed top; /*background photo*/
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-size: 1556px 700px;
+	background-size: cover;
 	line-height: 2em;	
 	text-align: center;
 }
+
+/* --- iPhone --- */
+@media (max-width: 740x) {
+	.top {
+		background-size: 1556px 700px;
+	}
+} 
 
 .top .content {
 	z-index: 10000;
@@ -119,15 +126,22 @@ a.contactlink-mobile  {
 /* Appropriate for 960 - 1600px */
 .whatwedo {
 	/*background: #E0FFD1;*/
-	background: url(../images/background3.jpg) repeat fixed center;
+	background: url(../images/background3.jpg) no-repeat fixed center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-size: 1556px 700px;
+	background-size: cover;
 	color: #333;
 	line-height: 1.75em;
 	padding: 2em 0; 
 }
+
+/* --- iPhone --- */
+@media (max-width: 740x) {
+	.whatwedo {
+		background-size: 1556px 700px;
+	}
+} 
 
 .whatwedo h1 {
 	font-size: 2em;  
@@ -262,16 +276,24 @@ a.contactlink-mobile  {
 *******************************/
 
 .about-us {
-	background: url(../images/background2.jpg) repeat fixed center;
+	background: url(../images/background2.jpg) no-repeat fixed center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-size: 1556px 700px;
+	background-size: cover;
 	font-size: 1em;
 	top: 0;
 	line-height: 2em;
 	padding: 3em 0;
 }
+
+/* --- iPhone --- */
+@media (max-width: 740x) {
+	.about-us {
+		background-size: 1556px 700px;
+	}
+} 
+
 
 .about-us h1 {
 	font-size: 2em;
@@ -289,7 +311,7 @@ a.contactlink-mobile  {
 *******************************/
 
 .contact {
-	background: #000 url(../images/background4.png) repeat 50% 100%;
+	background: #000 url(../images/background4.png) no-repeat 50% 100%;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -301,6 +323,13 @@ a.contactlink-mobile  {
 	text-align: center;
 	height: 32em; 
 }
+
+/* --- iPhone --- */
+@media (max-width: 740x) {
+	.contact {
+		background-size: 1556px 700px;
+	}
+} 
 
 .contact h1 {
 	color: #dcddde;
@@ -369,10 +398,6 @@ footer a:hover {
 ************* Fonts ************
 *******************************/
 
-@font-face {
-    font-family: 'AvenirNextUltraLight';
-    src: url('fonts/avenirnext-ultralight.woff') format('woff');
-}
 
 @font-face {
     font-family: 'avenir_nextdemi_bold';
@@ -380,18 +405,5 @@ footer a:hover {
     font-weight: normal;
     font-style: normal;
 
-}
 
-@font-face {
-    font-family: 'avenir_nextregular';
-    src: url('fonts/avenirnext-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'lavanderia_regularregular';
-    src: url('fonts/lavanderia_regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
 }
