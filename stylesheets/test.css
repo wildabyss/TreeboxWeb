@@ -102,7 +102,7 @@ a.contactlink-mobile  {
 }
 
 /* --- iPhone --- */
-@media (max-width: 740x) {
+@media screen and (max-width: 420px) {
 	.top {
 		-webkit-background-size: 1556px 700px;
 		-moz-background-size: 1556px 700px;
