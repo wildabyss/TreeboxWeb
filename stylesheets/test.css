@@ -104,6 +104,9 @@ a.contactlink-mobile  {
 /* --- iPhone --- */
 @media (max-width: 740x) {
 	.top {
+		-webkit-background-size: 1556px 700px;
+		-moz-background-size: 1556px 700px;
+		-o-background-size: 1556px 700px;
 		background-size: 1556px 700px;
 	}
 } 
