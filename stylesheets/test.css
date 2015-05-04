@@ -140,8 +140,11 @@ a.contactlink-mobile  {
 }
 
 /* --- iPhone --- */
-@media (max-width: 740x) {
+@media screen and (max-width: 420px) {
 	.whatwedo {
+		-webkit-background-size: 1556px 700px;
+		-moz-background-size: 1556px 700px;
+		-o-background-size: 1556px 700px;
 		background-size: 1556px 700px;
 	}
 } 
@@ -291,8 +294,11 @@ a.contactlink-mobile  {
 }
 
 /* --- iPhone --- */
-@media (max-width: 740x) {
+@media screen and (max-width: 420px) {
 	.about-us {
+		-webkit-background-size: 1556px 700px;
+		-moz-background-size: 1556px 700px;
+		-o-background-size: 1556px 700px;
 		background-size: 1556px 700px;
 	}
 } 
@@ -328,8 +334,11 @@ a.contactlink-mobile  {
 }
 
 /* --- iPhone --- */
-@media (max-width: 740x) {
+@media screen and (max-width: 420px) {
 	.contact {
+		-webkit-background-size: 1556px 700px;
+		-moz-background-size: 1556px 700px;
+		-o-background-size: 1556px 700px;
 		background-size: 1556px 700px;
 	}
 } 
