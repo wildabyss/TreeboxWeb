@@ -290,17 +290,20 @@ a.contactlink-mobile  {
 
 .about-us {
 	background: url(../images/background2.jpg) no-repeat 50% 100%;
+	
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 	font-size: 1em;
-	top: 0;
-	line-height: 2em;
+	top: 0;	
 	padding: 8em 0;
+	background: #DBFFB8;	
+	
 }
 
 /* --- iPhone --- */
+/*
 @media screen and (max-width: 420px) {
 	.about-us {
 		background: url(../images/background2.jpg) no-repeat 50% 100%;	
@@ -309,23 +312,30 @@ a.contactlink-mobile  {
 		-o-background-size: 1556px 700px;
 		background-size: 1556px 700px;
 		font-size: 1em;
-		top: 0;
-		line-height: 2em;
+		top: 0;		
 		padding: 3em 0;
 	}
-} 
-
+} */
 
 .about-us h1 {
 	font-size: 2em;
-	color: #007AA3;
+	color: #797979;
 	text-align: center;
 	line-height: 45px;
 	margin-bottom: 1.5em; 
 }
 
 .about-us h2 {
-	font-size: 1.75em; 
+	font-size: 1.5em; 
+}
+
+.about-us p {
+	line-height: 2em; 
+	color: #717376;
+}
+
+.about-us span {
+	color: #9900CC;
 }
 
 .about-us .row {
