@@ -104,7 +104,7 @@ a.contactlink-mobile  {
 /* --- iPhone --- */
 @media screen and (max-width: 420px) {
 	.top {
-		background: url('../images/background1.jpg') no-repeat fixed top; /*background photo*/
+		background: url('../images/background1.jpg') no-repeat fixed center; /*background photo*/
 		-webkit-background-size: 1556px 700px;
 		-moz-background-size: 1556px 700px;
 		-o-background-size: 1556px 700px;
@@ -145,7 +145,7 @@ a.contactlink-mobile  {
 /* --- iPhone --- */
 @media screen and (max-width: 420px) {
 	.whatwedo {
-		background: url(../images/background3.jpg) no-repeat fixed top;
+		background: url(../images/background3.jpg) no-repeat fixed center;
 		-webkit-background-size: 1556px 700px;
 		-moz-background-size: 1556px 700px;
 		-o-background-size: 1556px 700px;
@@ -215,8 +215,8 @@ a.contactlink-mobile  {
 ******** CONSUMERS *********
 **************************/
 .consumer {
-	background: #BCCACA; /*#f2f1ec;*/
-	color: #22222F;
+	background: #009999; /*#f2f1ec;*/
+	color: #fff;
 	font-size: 1em;	
 	line-height: 1.75em;
 	text-align: left;	
@@ -224,7 +224,7 @@ a.contactlink-mobile  {
 }
 
 .consumer h1{
-	color: #525252;
+	color: #fff;
 	font-size: 2em; 
 	margin-bottom: 1em; 
 }
@@ -289,7 +289,7 @@ a.contactlink-mobile  {
 *******************************/
 
 .about-us {
-	background: url(../images/background2.jpg) no-repeat fixed center;
+	background: url(../images/background2.jpg) no-repeat 50% 100%;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -303,7 +303,7 @@ a.contactlink-mobile  {
 /* --- iPhone --- */
 @media screen and (max-width: 420px) {
 	.about-us {
-		background: url(../images/background2.jpg) no-repeat fixed top;	
+		background: url(../images/background2.jpg) no-repeat 50% 100%;	
 		-webkit-background-size: 1556px 700px;
 		-moz-background-size: 1556px 700px;
 		-o-background-size: 1556px 700px;
