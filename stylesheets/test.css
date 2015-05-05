@@ -104,7 +104,7 @@ a.contactlink-mobile  {
 /* --- iPhone --- */
 @media screen and (max-width: 420px) {
 	.top {
-		background: url('../images/background1.jpg') no-repeat fixed center; /*background photo*/
+		background: url('../images/background1.jpg') no-repeat 50% 100%; /*background photo*/
 		-webkit-background-size: 1556px 700px;
 		-moz-background-size: 1556px 700px;
 		-o-background-size: 1556px 700px;
@@ -145,7 +145,7 @@ a.contactlink-mobile  {
 /* --- iPhone --- */
 @media screen and (max-width: 420px) {
 	.whatwedo {
-		background: url(../images/background3.jpg) no-repeat fixed center;
+		background: url(../images/background3.jpg) no-repeat 50% 100%;
 		-webkit-background-size: 1556px 700px;
 		-moz-background-size: 1556px 700px;
 		-o-background-size: 1556px 700px;
@@ -297,7 +297,7 @@ a.contactlink-mobile  {
 	font-size: 1em;
 	top: 0;
 	line-height: 2em;
-	padding: 3em 0;
+	padding: 8em 0;
 }
 
 /* --- iPhone --- */
@@ -321,10 +321,15 @@ a.contactlink-mobile  {
 	color: #007AA3;
 	text-align: center;
 	line-height: 45px;
+	margin-bottom: 1.5em; 
 }
 
 .about-us h2 {
 	font-size: 1.75em; 
+}
+
+.about-us .row {
+	
 }
 
 /*******************************
