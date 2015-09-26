@@ -302,21 +302,6 @@ a.contactlink-mobile  {
 	
 }
 
-/* --- iPhone --- */
-/*
-@media screen and (max-width: 420px) {
-	.about-us {
-		background: url(../images/background2.jpg) no-repeat 50% 100%;	
-		-webkit-background-size: 1556px 700px;
-		-moz-background-size: 1556px 700px;
-		-o-background-size: 1556px 700px;
-		background-size: 1556px 700px;
-		font-size: 1em;
-		top: 0;		
-		padding: 3em 0;
-	}
-} */
-
 .about-us h1 {
 	font-size: 2em;
 	color: #797979;
@@ -441,6 +426,104 @@ footer a:hover {
 }
 
 /*******************************
+********* Home-Receipts *************
+*******************************/
+
+.home-receipts {
+	background: url('../images/home_bg1.jpg') no-repeat fixed top; /*background photo*/
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	line-height: 2em;	
+	text-align: center;
+	height: 100vh; 	
+	margin: 0;
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	}
+
+.home-receipts p {
+	position: absolute;
+	left: 0;
+	text-align: center; 
+    top: 40%;
+	margin-top: -15px;
+	width: 100%; 
+	color: white;
+}
+
+.home-receipts a {
+	position: absolute;
+	left: 30%;
+	top: 45%;
+}
+
+/* --- iPhone --- */
+@media screen and (max-width: 420px) {
+	.home-receipts {
+		background: url('../images/home_bg1.jpg') no-repeat 50% 100%; /*background photo*/
+		-webkit-background-size: 1920px 1280px;
+		-moz-background-size: 1920px 1280px;
+		-o-background-size: 1920px 1280px;
+		background-size: 1920px 1280px;
+		line-height: 2em;	
+		text-align: center;
+		height: 46vh; 
+		
+		
+	}
+} 
+
+/*******************************
+********* Home-Retailers *************
+*******************************/
+
+.home-retailers {
+	background: url('../images/home_bg2.jpg') no-repeat fixed top; /*background photo*/
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	line-height: 2em;	
+	text-align: center;
+	height: 100vh; 
+	margin: 0;
+}
+
+.home-retailers p {
+	position: absolute;
+	left: 0;
+	text-align: center; 
+    top: 40%;
+	margin-top: -15px;
+	width: 100%; 
+	color: white; 
+}
+
+.home-retailers a {
+	position: absolute;
+	left: 30%;
+	top: 45%;
+}
+
+/* --- iPhone --- */
+@media screen and (max-width: 420px) {
+	.home-retailers {
+		background: url('../images/home_bg2.jpg') no-repeat 50% 100%; /*background photo*/
+		-webkit-background-size: 2560px 1600px;
+		-moz-background-size: 2560px 1600px;
+		-o-background-size: 2560px 1600px;
+		background-size: 2560px 1600px;
+		line-height: 2em;	
+		text-align: center;
+		height: 46vh; 
+	}
+} 
+
+
+/*******************************
 ************* Fonts ************
 *******************************/
 
@@ -450,6 +533,6 @@ footer a:hover {
     src: url('fonts/avenirnext-demibold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
-
 }
+
+

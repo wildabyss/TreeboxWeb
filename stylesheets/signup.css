@@ -1,0 +1,69 @@
+.signup-fields p {
+	display: inline; 
+}
+
+.signup-fields a.login-link {
+	color: #FF8000;	
+	display: inline; 
+}
+
+.signup-fields a.forgot-password {
+	color: #FF8000;	
+	display: block; 
+	width: 280px;
+	text-align: right; 
+}
+
+.button.facebook {
+	background-color: #4F6AA2;
+	margin-bottom: 5px;	
+	margin-left: 10px;
+	width: 280px;	
+}
+
+.button.facebook:hover, 
+.button.facebook:focus {
+	background-color: #355089;
+}
+
+.button.google {
+	background-color: #FF1B46;
+	margin-bottom: 5px;
+	margin-left: 10px; 
+	width: 280px;	
+}
+
+.button.google:hover, 
+.button.google:focus {
+	background-color: #E6022D;
+}
+
+.signup-fields p {
+	margin-left: 5px; 
+	margin-top: 20px; 
+	margin-bottom: 10px; 
+}
+.signup-fields input[type=email]{
+	width: 280px; 
+	margin-bottom: 5px; 
+}
+
+.signup-fields input[type=password]{
+	width: 280px; 
+	margin-bottom: 5px; 
+}
+
+.signup-fields input[type=submit]{
+	width: 280px; 
+	height: 50px; 
+	margin-top: 10px; 
+	margin-bottom: 5px; 
+	background-color: #00A37A;
+	border-style: none;
+	color: white; 	
+}
+
+.signup-fields input[type=submit]:hover, 
+.signup-fields input[type=submit]:focus {
+	background-color: #007A5C;
+}
