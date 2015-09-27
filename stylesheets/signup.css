@@ -1,5 +1,8 @@
-.signup-fields p {
-	display: inline; 
+.signup-fields {
+	position: absolute; 
+	left: 50%;	
+	margin-left: -140px;
+	margin-top: 15px; 
 }
 
 .signup-fields a.login-link {
@@ -20,7 +23,6 @@
 .button.facebook {
 	background-color: #4F6AA2;
 	margin-bottom: 5px;	
-	margin-left: 10px;
 	width: 280px;	
 }
 
@@ -32,7 +34,6 @@
 .button.google {
 	background-color: #FF1B46;
 	margin-bottom: 5px;
-	margin-left: 10px; 
 	width: 280px;	
 }
 
@@ -42,7 +43,7 @@
 }
 
 .signup-fields p {
-	margin-left: 5px; 
+	display: inline; 
 	margin-top: 20px; 
 	margin-bottom: 10px; 
 }
