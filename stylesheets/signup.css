@@ -5,6 +5,8 @@
 .signup-fields a.login-link {
 	color: #FF8000;	
 	display: inline; 
+	width: 280px;
+	text-align: right; 
 }
 
 .signup-fields a.forgot-password {
