@@ -289,8 +289,6 @@ a.contactlink-mobile  {
 *******************************/
 
 .about-us {
-	background: url(../images/background2.jpg) no-repeat 50% 100%;
-	
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -298,7 +296,7 @@ a.contactlink-mobile  {
 	font-size: 1em;
 	top: 0;	
 	padding: 8em 0;
-	background: #DBFFB8;	
+	background: #F4FFEA;	
 	
 }
 
